@@ -1,8 +1,8 @@
 # isedc
-Simple Python script to test ISE Data Connect feature.
-Script does not require Java or Oracle client to be installed.
-Script does not validate ISE certificate, so no need to import the certificate.
-Script uses python-oracledb Thin Mode which has some limitations. Please see more here:
+A simple Python script to test the ISE Data Connect feature. 
+
+This script does not require Java or an Oracle client installation and does not perform ISE certificate validation, so there is no need to import the certificate. 
+It utilizes python-oracledb in Thin Mode, which may impose certain limitations. For more information, please see more here:
 https://python-oracledb.readthedocs.io/en/latest/user_guide/appendix_a.html
 
 To connect to your ISE instance, set the environment variables:
