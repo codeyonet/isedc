@@ -15,7 +15,7 @@ Options:
 ```
   -h, --help            show this help message and exit
   -q QUERY, --query QUERY
-                        SQL query to execute, enclosed in quotes.
+                        SQL query to execute, enclosed in quotes (without trailing ';').
   -t, --table           Output results in table format (default).
   -j, --json            Output results in JSON format.
 ```
