@@ -1,5 +1,5 @@
 # isedc
-A simple Python script to test the [ISE Data Connect](https://developer.cisco.com/docs/dataconnect/getting-started/) feature. 
+A simple Python script to use the [ISE Data Connect](https://developer.cisco.com/docs/dataconnect/getting-started/) feature. 
 
 This script does not require Java or an Oracle client installation and does not perform ISE certificate validation, so there is no need to import the certificate. 
 It utilizes python-oracledb in Thin Mode, which has some limitations. For more information, please review [table](https://python-oracledb.readthedocs.io/en/latest/user_guide/appendix_a.html) here.
