@@ -21,7 +21,8 @@ Options:
 ```
 Examples (the query is not case sensitive):
 ```
-    isedc.py -q 'select * from node_list' # Get all entries from NODE_LIST view in table format
-    isedc.py -q 'select * from NETWORK_DEVICE_GROUPS' -t # Get all entries from NETWORK_DEVICE_GROUPS view in table format
-    isedc.py -q 'SELECT * FROM ENDPOINTS_DATA' -j # Get all entries from ENDPOINTS_DATA view in JSON format
+    ./isedc.py -q "select * from node_list" # Get all entries from NODE_LIST view in table format
+    ./isedc.py -q "select * from NETWORK_DEVICE_GROUPS" -t # Get all entries from NETWORK_DEVICE_GROUPS view in table format
+    ./isedc.py -q "SELECT MAC_ADDRESS,ENDPOINT_POLICY,STATIC_ASSIGNMENT,STATIC_GROUP_ASSIGNMENT,HOSTNAME,PROFILE_SERVER FROM ENDPOINTS_DATA \
+WHERE update_time BETWEEN TO_DATE('2024-01-02', 'YYYY-MM-DD') AND TO_DATE('2024-01-03 23:59:59', 'YYYY-MM-DD HH24:MI:SS')" # Specify exact columns and avoid an issue with columns containing named time zones
 ```    
