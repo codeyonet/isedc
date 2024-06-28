@@ -4,7 +4,7 @@ A simple Python script to use the [ISE Data Connect](https://developer.cisco.com
 This script does not require Java or an Oracle client installation and does not perform ISE certificate validation, so there is no need to import the certificate. 
 It utilizes python-oracledb in Thin Mode, which has some limitations. For more information, please review [table](https://python-oracledb.readthedocs.io/en/latest/user_guide/appendix_a.html) here.
 
-To use the script install the Python dependencies and set the environment variables. 
+To use the script install the Python (tested with 3.11) dependencies and set the environment variables. 
 
 Install the dependecies:
 ```
